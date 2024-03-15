@@ -1,0 +1,29 @@
+[06-Mar-2024 19:40:32 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[15-Mar-2024 09:21:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function stie_url() in C:\Users\Snir1\Local Sites\my-university\app\public\wp-content\themes\university2024\header.php:10
+Stack trace:
+#0 C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Snir1\\...', true, Array)
+#2 C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Snir1\Local Sites\my-university\app\public\wp-content\themes\university2024\page.php(3): get_header()
+#4 C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Snir1\\...')
+#5 C:\Users\Snir1\Local Sites\my-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Snir1\\...')
+#6 C:\Users\Snir1\Local Sites\my-university\app\public\index.php(17): require('C:\\Users\\Snir1\\...')
+#7 {main}
+  thrown in C:\Users\Snir1\Local Sites\my-university\app\public\wp-content\themes\university2024\header.php on line 10
+[15-Mar-2024 09:21:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function stie_url() in C:\Users\Snir1\Local Sites\my-university\app\public\wp-content\themes\university2024\header.php:10
+Stack trace:
+#0 C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\template.php(725): load_template('C:\\Users\\Snir1\\...', true, Array)
+#2 C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Snir1\Local Sites\my-university\app\public\wp-content\themes\university2024\page.php(3): get_header()
+#4 C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Snir1\\...')
+#5 C:\Users\Snir1\Local Sites\my-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Snir1\\...')
+#6 C:\Users\Snir1\Local Sites\my-university\app\public\index.php(17): require('C:\\Users\\Snir1\\...')
+#7 {main}
+  thrown in C:\Users\Snir1\Local Sites\my-university\app\public\wp-content\themes\university2024\header.php on line 10
+[15-Mar-2024 09:45:23 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\Snir1\Local Sites\my-university\app\public\wp-content\themes\university2024\page.php on line 24
+[15-Mar-2024 09:45:25 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\Snir1\Local Sites\my-university\app\public\wp-content\themes\university2024\page.php on line 24
+[15-Mar-2024 09:45:39 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\Snir1\Local Sites\my-university\app\public\wp-content\themes\university2024\page.php on line 24
+[15-Mar-2024 09:45:45 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\Snir1\Local Sites\my-university\app\public\wp-content\themes\university2024\page.php on line 24
+[15-Mar-2024 09:45:45 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\Snir1\Local Sites\my-university\app\public\wp-content\themes\university2024\page.php on line 24
+[15-Mar-2024 09:56:23 UTC] PHP Warning:  Undefined variable $theParent in C:\Users\Snir1\Local Sites\my-university\app\public\wp-content\themes\university2024\page.php on line 21
