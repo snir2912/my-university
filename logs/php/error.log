@@ -29,3 +29,5 @@ Stack trace:
 [15-Mar-2024 09:56:23 UTC] PHP Warning:  Undefined variable $theParent in C:\Users\Snir1\Local Sites\my-university\app\public\wp-content\themes\university2024\page.php on line 21
 [17-Mar-2024 05:44:34 UTC] Cron reschedule event error for hook: wp_version_check, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
 [17-Mar-2024 05:56:35 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\Snir1\Local Sites\my-university\app\public\wp-content\themes\university2024\index.php on line 21
+[17-Mar-2024 06:20:21 UTC] PHP Warning:  Undefined variable $theParent in C:\Users\Snir1\Local Sites\my-university\app\public\wp-content\themes\university2024\single.php on line 19
+[17-Mar-2024 06:20:21 UTC] PHP Warning:  Undefined variable $theParent in C:\Users\Snir1\Local Sites\my-university\app\public\wp-content\themes\university2024\single.php on line 19
