@@ -47,3 +47,21 @@ Stack trace:
 #3 C:\Users\Snir1\Local Sites\my-university\app\public\index.php(17): require('C:\\Users\\Snir1\\...')
 #4 {main}
   thrown in C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\link-template.php on line 1302
+[18-Mar-2024 20:15:29 UTC] PHP Warning:  file_put_contents(C:\Users\Snir1\Local Sites\my-university\app\public/wp-content/themes/university2024/acf-json/group_65f8a05690efc.json): Failed to open stream: No such file or directory in C:\Users\Snir1\Local Sites\my-university\app\public\wp-content\plugins\advanced-custom-fields\includes\local-json.php on line 448
+[18-Mar-2024 20:24:07 UTC] PHP Fatal error:  Uncaught Exception: Failed to parse time string (23/04/2024) at position 0 (2): Unexpected character in C:\Users\Snir1\Local Sites\my-university\app\public\wp-content\themes\university2024\front-page.php:28
+Stack trace:
+#0 C:\Users\Snir1\Local Sites\my-university\app\public\wp-content\themes\university2024\front-page.php(28): DateTime->__construct('23/04/2024')
+#1 C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Snir1\\...')
+#2 C:\Users\Snir1\Local Sites\my-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Snir1\\...')
+#3 C:\Users\Snir1\Local Sites\my-university\app\public\index.php(17): require('C:\\Users\\Snir1\\...')
+#4 {main}
+  thrown in C:\Users\Snir1\Local Sites\my-university\app\public\wp-content\themes\university2024\front-page.php on line 28
+[18-Mar-2024 20:24:20 UTC] PHP Fatal error:  Uncaught Exception: Failed to parse time string (23/04/2024) at position 0 (2): Unexpected character in C:\Users\Snir1\Local Sites\my-university\app\public\wp-content\themes\university2024\front-page.php:28
+Stack trace:
+#0 C:\Users\Snir1\Local Sites\my-university\app\public\wp-content\themes\university2024\front-page.php(28): DateTime->__construct('23/04/2024')
+#1 C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Snir1\\...')
+#2 C:\Users\Snir1\Local Sites\my-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Snir1\\...')
+#3 C:\Users\Snir1\Local Sites\my-university\app\public\index.php(17): require('C:\\Users\\Snir1\\...')
+#4 {main}
+  thrown in C:\Users\Snir1\Local Sites\my-university\app\public\wp-content\themes\university2024\front-page.php on line 28
+[18-Mar-2024 20:24:37 UTC] PHP Warning:  file_put_contents(C:\Users\Snir1\Local Sites\my-university\app\public/wp-content/themes/university2024/acf-json/group_65f8a05690efc.json): Failed to open stream: No such file or directory in C:\Users\Snir1\Local Sites\my-university\app\public\wp-content\plugins\advanced-custom-fields\includes\local-json.php on line 448
