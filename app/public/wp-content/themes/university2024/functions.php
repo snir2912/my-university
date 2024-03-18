@@ -21,4 +21,3 @@ add_action('after_setup_theme', 'university_features');
 
 
 
-add_action('init', 'university_post_type');
