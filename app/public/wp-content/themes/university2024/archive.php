@@ -23,7 +23,11 @@ while(have_posts()){
     </div>
 
     <div class="generic-content">
-       <?php the_excerpt(); ?>
+       <?php if(has_excerpt()){
+                      echo get_the_excerpt();
+                      }else{
+                        echo wp_trim_words(get_the_content(),20 );
+                     } ?>
        <p><a class="btn btn--blue" href="<?php the_permalink(); ?>">Read more &raquo;</a></p>
     </div>
   </div>
