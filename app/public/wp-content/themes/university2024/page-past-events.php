@@ -13,8 +13,7 @@ get_header(); ?>
 </div>
 
 <div class="container container--narrow page-section">
-<?php
-  
+<?php 
   $today = date('Ymd');
   $pastEvents = new WP_Query(array(
     'paged' => get_query_var('paged', 1),
@@ -27,7 +26,7 @@ get_header(); ?>
         'key' => 'event_date',
         'compare' => '<',
         'value' => $today,
-        'type' => 'numeric',
+        'type' => 'numeric'
       )
     )
   ));
