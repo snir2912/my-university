@@ -34,7 +34,9 @@ while(have_posts()){
     </div>
 <?php }
 echo paginate_links();
-?> 
+?>
+ <hr class="section-break">
+<p><a href="<?php echo site_url('/past-events')?>">check our past events</a></p>
 </div>
 
 <?php get_footer();

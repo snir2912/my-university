@@ -69,3 +69,51 @@ Stack trace:
 [19-Mar-2024 19:20:47 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
 [19-Mar-2024 19:20:47 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
 [19-Mar-2024 19:21:12 UTC] PHP Fatal error:  Cannot redeclare university_features() (previously declared in C:\Users\Snir1\Local Sites\my-university\app\public\wp-content\themes\university2024\functions.php:14) in C:\Users\Snir1\Local Sites\my-university\app\public\wp-content\themes\university2024\functions.php on line 21
+[19-Mar-2024 19:50:26 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "university_adjust_queries" not found or invalid function name in C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#2 C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\class-wp-query.php(1881): do_action_ref_array('pre_get_posts', Array)
+#3 C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\class-wp-query.php(3824): WP_Query->get_posts()
+#4 C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\post.php(2452): WP_Query->query(Array)
+#5 C:\Users\Snir1\Local Sites\my-university\app\public\wp-content\plugins\advanced-custom-fields\includes\class-acf-internal-post-type.php(399): get_posts(Array)
+#6 C:\Users\Snir1\Local Sites\my-university\app\public\wp-content\plugins\advanced-custom-fields\includes\class-acf-internal-post-type.php(357): ACF_Internal_Post_Type->get_raw_posts()
+#7 C:\Users\Snir1\Local Sites\my-university\app\public\wp-content\plugins\advanced-custom-fields\includes\post-types\class-acf-taxonomy.php(126): ACF_Internal_Post_Type->get_posts(Array)
+#8 C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\class-wp-hook.php(324): ACF_Taxonomy->register_taxonomies(6)
+#9 C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#10 C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 C:\Users\Snir1\Local Sites\my-university\app\public\wp-content\plugins\advanced-custom-fields\acf.php(390): do_action('acf/init', 6)
+#12 C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\class-wp-hook.php(324): ACF->init('')
+#13 C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#14 C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#15 C:\Users\Snir1\Local Sites\my-university\app\public\wp-settings.php(643): do_action('init')
+#16 C:\Users\Snir1\Local Sites\my-university\app\public\wp-config.php(103): require_once('C:\\Users\\Snir1\\...')
+#17 C:\Users\Snir1\Local Sites\my-university\app\public\wp-load.php(50): require_once('C:\\Users\\Snir1\\...')
+#18 C:\Users\Snir1\Local Sites\my-university\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Snir1\\...')
+#19 C:\Users\Snir1\Local Sites\my-university\app\public\index.php(17): require('C:\\Users\\Snir1\\...')
+#20 {main}
+  thrown in C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\class-wp-hook.php on line 324
+[19-Mar-2024 19:50:26 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "university_adjust_queries" not found or invalid function name in C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#2 C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\class-wp-query.php(1881): do_action_ref_array('pre_get_posts', Array)
+#3 C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\class-wp-query.php(3824): WP_Query->get_posts()
+#4 C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\post.php(2452): WP_Query->query(Array)
+#5 C:\Users\Snir1\Local Sites\my-university\app\public\wp-content\plugins\advanced-custom-fields\includes\class-acf-internal-post-type.php(399): get_posts(Array)
+#6 C:\Users\Snir1\Local Sites\my-university\app\public\wp-content\plugins\advanced-custom-fields\includes\class-acf-internal-post-type.php(357): ACF_Internal_Post_Type->get_raw_posts()
+#7 C:\Users\Snir1\Local Sites\my-university\app\public\wp-content\plugins\advanced-custom-fields\includes\post-types\class-acf-taxonomy.php(126): ACF_Internal_Post_Type->get_posts(Array)
+#8 C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\class-wp-hook.php(324): ACF_Taxonomy->register_taxonomies(6)
+#9 C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#10 C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 C:\Users\Snir1\Local Sites\my-university\app\public\wp-content\plugins\advanced-custom-fields\acf.php(390): do_action('acf/init', 6)
+#12 C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\class-wp-hook.php(324): ACF->init('')
+#13 C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#14 C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#15 C:\Users\Snir1\Local Sites\my-university\app\public\wp-settings.php(643): do_action('init')
+#16 C:\Users\Snir1\Local Sites\my-university\app\public\wp-config.php(103): require_once('C:\\Users\\Snir1\\...')
+#17 C:\Users\Snir1\Local Sites\my-university\app\public\wp-load.php(50): require_once('C:\\Users\\Snir1\\...')
+#18 C:\Users\Snir1\Local Sites\my-university\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Snir1\\...')
+#19 C:\Users\Snir1\Local Sites\my-university\app\public\index.php(17): require('C:\\Users\\Snir1\\...')
+#20 {main}
+  thrown in C:\Users\Snir1\Local Sites\my-university\app\public\wp-includes\class-wp-hook.php on line 324
