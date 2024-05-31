@@ -31,11 +31,8 @@
           'post_type' => 'program',
           'orderby' => 'title',
           'order' => 'ASC',
-<<<<<<< HEAD
           'meta_query' => array( 
-=======
-          'meta_query' => array(
->>>>>>> 97a440dd73fc7ff30ca57f572f7ddb1c65eb88ad
+
             array(
               'key' => 'related_campus',
               'compare' => 'LIKE',
